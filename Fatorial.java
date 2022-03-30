@@ -4,7 +4,7 @@ class Fatorial {
         Scanner ler = new Scanner(System.in);
         System.out.println("Insira um número inteiro: ");
         int n = ler.nextInt();
-        int mult = 1;
+        long mult = 1;
         for (int i = 2; i <= n ; i++) {
             mult *= i;
         }
